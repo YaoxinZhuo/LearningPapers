@@ -1,9 +1,11 @@
 
 % -------------------------------------------------------------------------
-% Function: [class,type]=dbscan(x,k,Eps)
+% Function: [class,type]=dbscan(x,k,Eps) 
 % -------------------------------------------------------------------------
 % Aim: 
-% Clustering the data with Density-Based Scan Algorithm with Noise (DBSCAN)???????????????DBSCAN
+% Clustering the data with Density-Based Scan Algorithm with Noise (DBSCAN)
+% ???
+%??????????????????????
 % -------------------------------------------------------------------------
 % Input: 
 % x - data set (m,n); m-objects, n-variables
