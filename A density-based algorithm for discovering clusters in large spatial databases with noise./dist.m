@@ -1,19 +1,15 @@
 function [D]=dist(i,x)
 
 % function: [D]=dist(i,x)
-%
-% Aim: 
+% Aim: ÷–Œƒ≤‚ ‘
 % Calculates the Euclidean distances between the i-th object and all objects in x	?????i?object??????objects??????? 
 %								    
 % Input: 
 % i - an object (1,n)
 % x - data matrix (m,n); m-objects, n-variables	    
-%                                                                 
+%                 ????                                                
 % Output: 
-% D - Euclidean distance (m,1)??????i?object?????objects?????
-
-
-
+% D - Euclidean distance (m,1)
 [m,n]=size(x);
 D=sqrt(sum((((ones(m,1)*i)-x).^2)'));
 
